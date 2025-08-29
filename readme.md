@@ -79,7 +79,7 @@ ipykernel>=6.0.0
 ## Project Structure
 
 ```
-├── fake news detector.ipynb    # Main Jupyter notebook with all the code
+├── fake_news_detector.ipynb    # Main collab notebook with all the code
 ├── True.csv                   # Dataset with real news articles
 ├── Fake.csv                   # Dataset with fake news articles
 ├── requirements.txt           # Project dependencies
@@ -122,8 +122,6 @@ Common issues and solutions:
    - Error: `MemoryError` during model training
    - Solution: Reduce `max_features` in TfidfVectorizer or use a smaller sample size
 
-3. **Jupyter Notebook Not Starting**
-   - Solution: Ensure Jupyter is installed correctly with `pip install jupyter`
 
 ## Future Improvements
 
@@ -142,3 +140,4 @@ Akshat Agrawal
 - Dataset provided by Kaggle https://www.kaggle.com/datasets/emineyetm/fake-news-detection-datasets
 - NLTK community for text processing tools
 - Scikit-learn community for machine learning implementations
+
